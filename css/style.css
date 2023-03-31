@@ -1,0 +1,166 @@
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+body{
+    
+    background-image: url("/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    
+    
+  }
+
+  .container h1{
+     color: #fff;
+     font-size: 70px;
+  }
+  .container #rider {
+ color: #fff;
+ font-size: 30px;
+ padding: 0px;
+  }
+  .container #quote {
+ color: #fff;
+ font-size: 30px;
+ background-color:rgba(42, 106, 44, 0.5);
+ border: 2px solid white;
+ border-radius: 10px;
+ padding: 60px;
+ margin: 10px 200px;
+}
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button.generate-btn:hover {
+    background-color: #3e8e41;
+    transform: scale(1.1);
+  }
+  
+  button.save-btn:hover {
+    background-color: #3e8e41;
+    transform: scale(1.1);
+  }
+
+  header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.2s;
+  }
+  
+  nav a:hover {
+    color: #B22222;
+  }
+  
+
+  
+
+  @media screen and (max-width: 391px){
+    
+    body{
+  
+      background-image: url("/bgArtboard.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  }
+  .container #quote {
+    color: #fff;
+    font-size: 25px;
+    background-color:rgba(42, 106, 44, 0.5);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 60px 30px;
+    margin: 10px 30px;
+   }
+}
+
+@media screen and (max-width: 768px){
+    
+  body{
+
+    background-image: url("/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container #quote {
+  color: #fff;
+  font-size: 25px;
+  background-color:rgba(42, 106, 44, 0.5);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 60px;
+  margin: 10px 40px;
+ }
+}
+@media screen and (max-width: 414px){
+    
+  body{
+
+    background-image: url("/bgArtboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container #quote {
+  color: #fff;
+  font-size: 25px;
+  background-color:rgba(42, 106, 44, 0.5);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 60px 30px;
+  margin: 10px 30px;
+ }
+}
+
