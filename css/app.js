@@ -322,7 +322,7 @@ const quotes = [
       return;
     }
   
-    const tweetText = encodeURIComponent(`"${textToShare}" hjjjhh`);
+    const tweetText = encodeURIComponent(`"${textToShare}"`);
     const url = `https://twitter.com/intent/tweet?text=${tweetText}`;
   
     window.open(url, '_blank', 'width=575,height=400,toolbar=no,menubar=no,scrollbars=yes,resizable=yes,location=no,directories=no,status=no');
